@@ -1,0 +1,110 @@
+.img-background {
+  width: 100%;
+  height: 100%;
+}
+
+.img {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+}
+
+
+/* TITLE SECTION */
+#title {
+  height: 450px;
+  background-color: #ffe05d;
+  background-image: linear-gradient(to bottom, #ffe05d, #ff9642);
+  text-align: center;
+}
+
+.title-text {
+  font-family: 'Anton', sans-serif;
+  font-size: 4rem;
+  padding-top: 15%;
+  font-weight: bolder;
+  color: #646464;
+}
+.title-explain-text{
+  color: #646464;
+  font-family: 'Lemonada', cursive;
+  font-size: 1rem;
+}
+
+/* NAVIGATION SECTION */
+#navigation {
+  font-family: 'Roboto Slab', serif;
+  color: #646464;
+  background-color: #ffe05d;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+/* ABOUT SECTION */
+#about {
+  background-color: #f1f6f9;
+  text-align: center;
+  padding: 5% 3%;
+}
+
+.about-text {
+
+    font-family: 'Roboto Slab', serif;
+  margin-top: 30px;
+  padding: 0 30%;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/* SKILL SECTION */
+#skill {
+  background-color: #ffe05d;
+  text-align: center;
+  padding: 5% 5%;
+}
+
+.skill-text-title {
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+  margin-top: 25px;
+}
+
+.skill-text {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1rem;
+  padding: 0 10%;
+}
+
+/* CONTACT SECTION */
+#contact {
+  background-color: #f1f6f9;
+  padding: 5% 20%;
+}
+
+.contact-text-title {
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 70px;
+}
+.contact-text{
+  font-family: 'Roboto Slab', serif;
+
+}
+
+/* FOOTER SECTION */
+#footer {
+  background-color: #ffe05d;
+  padding: 2% 3%;
+  text-align: center;
+}
+
+.footer-icon {
+  color: #646464;
+  margin: 10px 10px;
+}
+.footer-icon:hover{
+  color: #fff8cd;
+}
