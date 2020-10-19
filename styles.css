@@ -9,6 +9,9 @@
   border-radius: 100%;
 }
 
+body{
+  text-align: center;
+}
 
 /* TITLE SECTION */
 #title {
@@ -69,8 +72,9 @@
 
 /* SKILL SECTION */
 #skill {
-  background-color: #ffe05d;
+  /* background-color: #ffe05d; */
   text-align: center;
+  background-image: linear-gradient(to bottom,  #ff9642, #ffe05d );
   padding: 5% 5%;
 }
 
@@ -86,34 +90,46 @@
   padding: 0 10%;
 }
 
-/* CONTACT SECTION */
-#contact {
-  background-color: #f1f6f9;
-  padding: 5% 20%;
-}
-
-.contact-text-title {
-  font-family: 'Roboto Slab', serif;
-  font-weight: bold;
+/* GALLERY SECTION */
+#gallery{
+  background-color: #ffe05d;
+  padding: 5% 10%;
   text-align: center;
-  margin-bottom: 70px;
 }
-.contact-text{
-  font-family: 'Roboto Slab', serif;
-
+.center-gallery{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.carousel-size{
+  width: 300px;
+  height: 420px;
+}
+.carousel-text{
+  font-family: cursive;
+  padding: 3% 0;
+  line-height: 0.4rem;
 }
 
 /* FOOTER SECTION */
 #footer {
-  background-color: #ffe05d;
+  background-color: #646464;
+
+    /* background-image: linear-gradient(to bottom, #ffe05d, #ff9642); */
   padding: 2% 3%;
   text-align: center;
+  color: #fff;
 }
 
 .footer-icon {
-  color: #646464;
+  color: #ffe05d;
   margin: 10px 10px;
 }
 .footer-icon:hover{
-  color: #fff8cd;
+  color: #ff9642;
+}
+
+
+@media (max-width:480px){
+
 }
