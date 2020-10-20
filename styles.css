@@ -14,12 +14,12 @@ body{
   text-align: center;
 }
 .row-background{
-
+  padding: 4% 10%;
   background-image: linear-gradient(to bottom, #2d6187, #28abb9);
 }
 .title-text {
   font-family: 'Anton', sans-serif;
-  font-size: 4rem;
+  font-size: 5rem;
   padding-top: 15%;
   font-weight: bolder;
   color: #effad3;
@@ -27,16 +27,16 @@ body{
 .title-explain-text{
   color: #effad3;
   font-family: 'Lemonada', cursive;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 .text-title-combine{
   margin-top: 10%;
 }
 .title-image{
-  transform: rotate(20deg);
+  transform: rotate(10deg);
   margin-top:15%;
-  width: 250px;
-  height: 350px;
+  width: 400px;
+  height: 560px;
 }
 
 /* NAVIGATION SECTION */
@@ -46,6 +46,9 @@ body{
   background-color: #2d6187;
   padding-left: 3%;
   padding-right: 3%;
+}
+.nav-text{
+  font-size: 1.5rem;
 }
 
 /* ABOUT SECTION */
@@ -105,21 +108,20 @@ body{
   margin-right: auto;
 }
 .carousel-size{
-  width: 300px;
-  height: 420px;
+  width: 500px;
+  height: 700px;
 }
 .carousel-text{
+  font-size: 1.5rem;
   color: #effad3;
   font-family: cursive;
   padding: 3% 0;
-  line-height: 0.4rem;
+  line-height: 0.8rem;
 }
 
 /* FOOTER SECTION */
 #footer {
   background-color: #28abb9;
-
-    /* background-image: linear-gradient(to bottom, #ffe05d, #ff9642); */
   padding: 2% 3%;
   text-align: center;
   color: #fff;
@@ -133,11 +135,11 @@ body{
   color: #effad3;
 }
 
+/*
+@media (max-width:990px){
 
-@media (min-width:1000px){
 
-
-  /* MEDIA TITLE SECTION */
+   MEDIA TITLE SECTION
   #title {
     text-align: center;
   }
@@ -147,7 +149,7 @@ body{
   }
   .title-text {
     font-family: 'Anton', sans-serif;
-    font-size: 16rem;
+    font-size: 8rem;
     padding-top: 15%;
     font-weight: bolder;
     color: #646464;
@@ -155,7 +157,7 @@ body{
   .title-explain-text{
     color: #646464;
     font-family: 'Lemonada', cursive;
-    font-size: 6rem;
+    font-size: 2rem;
   }
   .text-title-combine{
     margin-top: 10%;
@@ -167,7 +169,7 @@ body{
     height: 750px;
   }
 
-  /* MEDIA NAVIGATION SECTION */
+   MEDIA NAVIGATION SECTION
   #navigation {
     font-size: 4rem;
     font-family: 'Roboto Slab', serif;
@@ -178,7 +180,7 @@ body{
   }
 
 
-/* MEDIA ABOUT SECTION */
+ MEDIA ABOUT SECTION
 #about {
   background-color: #f1f6f9;
   text-align: center;
@@ -201,9 +203,8 @@ font-size: 3rem;
   font-weight: bold;
 }
 
-/* MEDIA SKILL SECTION */
+ MEDIA SKILL SECTION
 #skill {
-  /* background-color: #ffe05d; */
   text-align: center;
   background-image: linear-gradient(to bottom, #ffe05d ,  #ff9642, #ffe05d );
   padding: 5% 2%;
@@ -224,7 +225,7 @@ font-size: 3rem;
 }
 
 
-/* MEDIA GALLERY SECTION  */
+ MEDIA GALLERY SECTION
   #gallery{
     background-color: #ffe05d;
     padding: 5% 10%;
@@ -245,11 +246,9 @@ font-size: 3rem;
     line-height: 0.4rem;
   }
 
-  /* FOOTER SECTION */
+   FOOTER SECTION
   #footer {
     background-color: #646464;
-
-      /* background-image: linear-gradient(to bottom, #ffe05d, #ff9642); */
     padding: 2% 3%;
     text-align: center;
     color: #fff;
@@ -267,4 +266,4 @@ font-size: 3rem;
     height: 50px;
   }
 
-}
+} */
