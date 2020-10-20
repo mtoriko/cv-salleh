@@ -15,17 +15,17 @@ body{
 }
 .row-background{
 
-  background-image: linear-gradient(to bottom, #ffe05d, #ff9642);
+  background-image: linear-gradient(to bottom, #2d6187, #28abb9);
 }
 .title-text {
   font-family: 'Anton', sans-serif;
   font-size: 4rem;
   padding-top: 15%;
   font-weight: bolder;
-  color: #646464;
+  color: #effad3;
 }
 .title-explain-text{
-  color: #646464;
+  color: #effad3;
   font-family: 'Lemonada', cursive;
   font-size: 1rem;
 }
@@ -42,8 +42,8 @@ body{
 /* NAVIGATION SECTION */
 #navigation {
   font-family: 'Roboto Slab', serif;
-  color: #646464;
-  background-color: #ffe05d;
+  color: #effad3;
+  background-color: #2d6187;
   padding-left: 3%;
   padding-right: 3%;
 }
@@ -73,19 +73,21 @@ body{
 
 /* SKILL SECTION */
 #skill {
-  /* background-color: #ffe05d; */
+  /* background-color: #28abb9; */
   text-align: center;
-  background-image: linear-gradient(to bottom,  #ff9642, #ffe05d );
+  background-image: linear-gradient(to bottom,  #28abb9, #2d6187 );
   padding: 5% 5%;
 }
 
 .skill-text-title {
+  color: #effad3;
   font-family: 'Roboto Slab', serif;
   font-weight: bold;
   margin-top: 25px;
 }
 
 .skill-text {
+  color: #effad3;
   font-family: 'Roboto Slab', serif;
   font-size: 1rem;
   padding: 0 10%;
@@ -93,7 +95,7 @@ body{
 
 /* GALLERY SECTION */
 #gallery{
-  background-color: #ffe05d;
+  background-color: #2d6187;
   padding: 5% 10%;
   text-align: center;
 }
@@ -107,6 +109,7 @@ body{
   height: 420px;
 }
 .carousel-text{
+  color: #effad3;
   font-family: cursive;
   padding: 3% 0;
   line-height: 0.4rem;
@@ -114,7 +117,7 @@ body{
 
 /* FOOTER SECTION */
 #footer {
-  background-color: #646464;
+  background-color: #28abb9;
 
     /* background-image: linear-gradient(to bottom, #ffe05d, #ff9642); */
   padding: 2% 3%;
@@ -123,15 +126,15 @@ body{
 }
 
 .footer-icon {
-  color: #ffe05d;
+  color: #a8dda8;
   margin: 10px 10px;
 }
 .footer-icon:hover{
-  color: #ff9642;
+  color: #effad3;
 }
 
 
-@media (max-width:480px){
+@media (max-width:550px){
 
 
   /* MEDIA TITLE SECTION */
